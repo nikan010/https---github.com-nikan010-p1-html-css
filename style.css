@@ -21,7 +21,7 @@ h1 {
   }
   
   p {
-    color: #4D4D4D;
+    color: #4d4d4d;
     font-weight: bold;
   }
   
@@ -29,3 +29,32 @@ h1 {
     color: #8A2BE2;
     text-decoration: none;
   }
+  header {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url('img/OIP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.header-title {
+    color: darkblue; 
+}
+
+.header-text {
+    color: white;
+}
+
+
+.header-bg {
+    width: 50vw; 
+}
+article {
+    border: 5px solid #3498db; 
+    border-radius: 55px; 
+    padding: 15px; 
+    margin: 15px; 
+    border-left: 10px solid #e74c3c; 
+}
